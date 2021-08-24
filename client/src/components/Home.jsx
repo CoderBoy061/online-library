@@ -13,7 +13,7 @@ function Home() {
   const [uid, setUid] = useState("");
   useEffect(() => {
     getData();
-  }, [uid]);
+  }, [show]);
   const getData = () => {
     const userdata = JSON.parse(localStorage.getItem("user_credientials"));
     if (userdata) {
