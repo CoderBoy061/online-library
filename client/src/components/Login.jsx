@@ -64,6 +64,7 @@ function Login() {
           setSuccessDialouge(true);
           setEmail("");
           setPassword("");
+          localStorage.setItem("user_credientials", JSON.stringify(data));
           window.location.replace("/");
         }
       }

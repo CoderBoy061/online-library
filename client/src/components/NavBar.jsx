@@ -14,28 +14,28 @@ function NavBar() {
 
   useEffect(() => {
     getData();
-    axios
-      .get("user/getdata", {
-        method: "GET",
-        headers: {
-          Accept: "application/json",
-          "Content-Type": "application/json",
-        },
-        credentials: "include",
-      })
-      .then((response) => {
-        // setuser(response.data);
-        localStorage.setItem(
-          "user_credientials",
-          JSON.stringify(response.data)
-        );
-        // setId(response.data._id);
-        // setShow(true);
-      })
-      .catch((error) => {
-        console.log(error.message);
-      });
-  }, []);
+    // axios
+    //   .get("user/getdata", {
+    //     method: "GET",
+    //     headers: {
+    //       Accept: "application/json",
+    //       "Content-Type": "application/json",
+    //     },
+    //     credentials: "include",
+    //   })
+    //   .then((response) => {
+    //     // setuser(response.data);
+    //     localStorage.setItem(
+    //       "user_credientials",
+    //       JSON.stringify(response.data)
+    //     );
+    //     // setId(response.data._id);
+    //     // setShow(true);
+    //   })
+    //   .catch((error) => {
+    //     console.log(error.message);
+    //   });
+  },[]);
   const getData = () => {
     const userdata = JSON.parse(localStorage.getItem("user_credientials"));
     if (userdata) {

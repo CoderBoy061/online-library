@@ -18,13 +18,6 @@ function Home() {
       setUid(userdata._id);
     }
   }, []);
-  // const getData = () => {
-  //   const userdata = JSON.parse(localStorage.getItem("user_credientials"));
-  //   if (userdata) {
-  //     setShow(true);
-  //     setUid(userdata._id);
-  //   }
-  // };
   return (
     <div className="home">
       <div className="first_section">
