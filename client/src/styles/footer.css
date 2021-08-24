@@ -1,0 +1,35 @@
+@import url("https://fonts.googleapis.com/css2?family=Salsa&display=swap");
+.footer_logo {
+  height: 60px;
+  margin-left: 5.5vw;
+}
+
+.footer_section {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  margin-left: 20vw;
+}
+.footer_icons {
+  display: flex;
+  gap: 50px;
+  margin-left: 10vw;
+}
+.footer {
+  display: flex;
+  align-items: center;
+  background-color: #0f1111;
+  padding: 1.2em 0.5em;
+  margin-top: 8vh;
+}
+.footer > p {
+  margin-top: 12vh;
+  color: white;
+  font-family: "Salsa", cursive;
+  margin-left: -5.5vw;
+}
+.footer_section > p {
+  margin-left: 4vw;
+  font-family: "Salsa", cursive;
+  color: white;
+}

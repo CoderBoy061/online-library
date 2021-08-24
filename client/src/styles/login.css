@@ -1,0 +1,48 @@
+.login_form {
+  display: flex;
+  flex-direction: column;
+  gap: 3vh;
+  box-shadow: 10px 10px 10px 10px rgba(187, 231, 245, 0.5);
+  border-radius: 0.5em;
+  margin-left: 28vw;
+  margin-top: 10vh;
+  padding: 2em 2em;
+  margin-bottom: 5vh;
+  width: 40vw;
+  margin-bottom: 15vh;
+}
+.login_email {
+  padding: 0.8em 1em;
+  outline: none;
+  border-radius: 0.5em;
+  border: none;
+  background-color: #ededed;
+}
+.login_pass {
+  padding: 0.8em 1em;
+  outline: none;
+  border-radius: 0.5em;
+  border: none;
+  background-color: #ededed;
+}
+#login_btn {
+  width: 10vw;
+  margin-left: 15vw;
+}
+.dont_account {
+  margin-top: -1vh;
+  margin-left: 14.9vw;
+}
+.login > h2 {
+  text-align: center;
+  margin-top: 3vh;
+  font-family: cursive;
+}
+.dont_account:hover{
+    color:navy
+}
+.hint{
+    margin-top: -1.6vh;
+    color: lightgray;
+    margin-left: 0.5vw;
+}

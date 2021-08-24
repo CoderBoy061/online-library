@@ -1,0 +1,77 @@
+.signup_form {
+  display: flex;
+  flex-direction: column;
+  gap: 3vh;
+  box-shadow: 10px 10px 10px 10px rgba(187, 231, 245, 0.5);
+  border-radius: 0.5em;
+  margin-left: 28vw;
+  margin-top: 3vh;
+  padding: 2em 2em;
+  margin-bottom: 5vh;
+  width: 40vw;
+}
+.username {
+  padding: 0.8em 1em;
+  outline: none;
+  border-radius: 0.5em;
+  border: none;
+  background-color: #ededed;
+}
+.fullname {
+  padding: 0.8em 1em;
+  outline: none;
+  border-radius: 0.5em;
+  border: none;
+  background-color: #ededed;
+}
+.user_email {
+  padding: 0.8em 1em;
+  outline: none;
+  border-radius: 0.5em;
+  border: none;
+  background-color: #ededed;
+}
+.user_phone {
+  padding: 0.8em 1em;
+  outline: none;
+  border-radius: 0.5em;
+  border: none;
+  background-color: #ededed;
+}
+.user_password {
+  padding: 0.8em 1em;
+  outline: none;
+  border-radius: 0.5em;
+  border: none;
+  background-color: #ededed;
+}
+.user_cpassword {
+  padding: 0.8em 1em;
+  outline: none;
+  border-radius: 0.5em;
+  border: none;
+  background-color: #ededed;
+}
+.user_pic {
+  padding: 0.8em 1em;
+  outline: none;
+  border-radius: 0.5em;
+  border: none;
+  background-color: #ededed;
+}
+#signup_btn {
+  width: 10vw;
+  margin-left: 15vw;
+}
+.already_account {
+  margin-top: -1vh;
+  margin-left: 14.5vw;
+}
+.signup>h2{
+    text-align: center;
+    margin-top: 3vh;
+    font-family: cursive;
+}
+.already_account:hover{
+    color: rgb(11, 250, 43);
+}

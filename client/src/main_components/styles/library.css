@@ -1,0 +1,25 @@
+.search_input{
+    padding: 0.7em 0.6em;
+    width: 15vw;
+    border: none;
+    background-color: #ededed;
+    outline: none;
+    border-radius: 0.6em;
+}
+.search_section{
+    display: flex;
+    align-items: center;
+    float: right;
+    margin-right: 4vw;
+    margin-top: -7vh;
+}
+#search_btn{
+    margin-left: 1vw;
+}
+.library>h2{
+    text-align: center;
+    margin-top: 2vh;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    padding: 0.8em 0.1em;
+    border-bottom: 2px solid #f1f5fd;
+}

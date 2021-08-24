@@ -1,0 +1,33 @@
+@import url('https://fonts.googleapis.com/css2?family=Salsa&display=swap');
+.profile{
+    display: flex;
+    /* background-color: red; */
+    padding: 3em 5em;
+    margin-top: 5vh;
+    margin-left: 15vw;
+    margin-right: 15vw;
+    border-radius: 1em;
+    box-shadow: 10px 10px 10px 10px  rgba(83, 88, 90, 0.5);
+}
+.user_image{
+    max-height: 400px;
+    max-width: 400px;
+}
+.user_data{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-left: 5vw;
+    /* background-color: rgba(3, 113, 156, 0.575); */
+    box-shadow: 10px 10px 10px 10px  rgba(168, 170, 172, 0.5);
+    padding: 2em 5em;
+   width: 50vw;
+   border-radius: 2em;
+}
+.user_data>p{
+    text-align: center;
+    font-size: 18px;
+    font-family: 'Salsa', cursive;
+    /* color: white; */
+}
